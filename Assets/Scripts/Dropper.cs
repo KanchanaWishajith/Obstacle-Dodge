@@ -24,8 +24,6 @@ public class Dropper : MonoBehaviour
     {
         if (Time.time > timeToWait)
         {
-            Debug.Log("Lookout below!");
-            
             myMeshRenderer.enabled = true;
             myRigidbody.useGravity = true;
         }
